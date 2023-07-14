@@ -4,11 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "balance": "node examples/account.js",
+    "read-contract": "node examples/read_smart_contract.js",
+    "send-transaction": "node examples/send_signed_transaction.js",
+    "contract-events": "node examples/contract_event_stream.js",
+    "blocks": "node examples/blocks.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ethers": "^6.6.3"
+    "dotenv": "^16.3.1",
+    "ethers": "^5.5.4"
   }
 }
